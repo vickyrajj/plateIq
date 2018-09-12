@@ -1,2 +1,2 @@
-# Plateiq - project
+# PlateIq - project
 
