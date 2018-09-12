@@ -1,0 +1,214 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+}
+.navbar {
+  margin-bottom: 40px;
+  background-color: #ffffff;
+}
+.navbar-nav {
+  padding-top: 8px;
+}
+.navbar-nav.navbar-right {
+  padding-top: 16px;
+}
+.navbar-nav > li {
+  padding: 0 1em 0 0;
+}
+.navbar-nav > li > a {
+  margin-top: 0.2em;
+  font-weight: 600;
+  font-size: 1em;
+  color: #4470fe;
+}
+.navbar-right > li:last-child {
+  padding-right: 0;
+}
+.btns {
+  box-shadow: 0 0 10px #dde8f9;
+}
+#primary-btn {
+  color: #4470fe;
+  background-color: #ffffff;
+  font-weight: 700;
+  border-radius: 0;
+  font-size: 0.9em;
+  padding: 0.7em 2.5em;
+  outline-color: #dde8f9;
+}
+#sec-btn {
+  color: #ffffff;
+  background-color: #fcba00;
+  border-radius: 0;
+  font-weight: 700;
+  font-size: 0.9em;
+  padding: 0.7em 1.8em;
+  outline-color: #dde8f9;
+}
+#about p {
+  font-weight: 700;
+  color: #4470fe;
+}
+#about h1 {
+  font-size: 45px;
+  color: #4470fe;
+  margin-top: 0;
+  margin-left: -2px;
+}
+#about h3 {
+  color: #969696;
+  font-size: 20px;
+}
+#email {
+  margin-top: 4em;
+}
+#inputt {
+  border-radius: 0;
+  border: 1px solid #e2e7f2;
+  width: 21em;
+  height: 3em;
+  box-shadow: 0 0 10px #dde8f9;
+  font-size: 0.9em;
+}
+.invoice-image {
+  margin-top: 1em;
+}
+.text {
+  margin-top: 7em;
+}
+.icon-bar {
+  color: black;
+  border-color: black;
+  background-color: black;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .navbar {
+    margin-bottom: 20px;
+  }
+  .navbar-toggle {
+    margin-top: 18px;
+  }
+  .navbar-toggle .icon-bar {
+    color: #4470fe;
+    border-color: #4470fe;
+    background-color: #4470fe;
+  }
+  .navbar-nav.navbar-right > li {
+    display: inline-block;
+  }
+
+  .text {
+    margin-top: 2em;
+  }
+
+  #about h1 {
+    font-size: 30px;
+  }
+  #about h3 {
+    font-size: 18px;
+  }
+  #email {
+    margin-top: 2em;
+  }
+  .invoice-img-wrapper {
+    margin-top: 2em;
+  }
+}
+
+/* ipad */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .navbar {
+    margin-bottom: 20px;
+  }
+  .navbar-toggle {
+    margin-top: 18px;
+  }
+  .navbar-toggle .icon-bar {
+    color: #4470fe;
+    border-color: #4470fe;
+    background-color: #4470fe;
+  }
+  .navbar-nav.navbar-right > li {
+    display: inline-block;
+  }
+  /* enable nav-bar for ipad */
+  .navbar-header {
+    float: none;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-collapse {
+    border-top: 1px solid transparent;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+  }
+  .navbar-collapse.collapse {
+    display: none !important;
+  }
+  .navbar-nav {
+    float: none !important;
+    margin: 7.5px -15px;
+  }
+  .navbar-nav > li {
+    float: none;
+  }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .navbar-text {
+    float: none;
+    margin: 15px 0;
+  }
+  .navbar-collapse.collapse.in {
+    display: block !important;
+  }
+  .collapsing {
+    overflow: hidden !important;
+  }
+
+  section#about {
+    margin: 2em 0;
+  }
+  .text {
+    margin-top: 2em;
+  }
+
+  #about h1 {
+    font-size: 32px;
+  }
+  #about h3 {
+    font-size: 18px;
+  }
+  #email {
+    margin-top: 2em;
+  }
+  #sec-btn {
+    margin-top: 1em;
+  }
+  .inputt {
+    width: 17em;
+  }
+}
+
+/* ipad-pro */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  .navbar-nav > li {
+    padding-right: 10px;
+  }
+  .navbar-nav > li > a {
+    padding-right: 0;
+  }
+
+  .text {
+    margin-top: 5em;
+  }
+  .invoice-img-wrapper {
+    margin-top: 3em;
+  }
+}
